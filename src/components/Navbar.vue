@@ -31,10 +31,10 @@ export default {
             drawer: false,
             items: [
                 { icon: 'home', title: 'Home', route:'/' },
-                { icon: 'terrain',title: 'Sightseeing', route:'/sightseeing' },
-                { icon: 'restaurant', title: 'Restaurants', route:'/restaurant' },
                 { icon: 'museum', title: 'Museums', route: '/museum' },
-                { icon: 'nature_people', title: 'Parks', route: '/park' }
+                { icon: 'nature_people', title: 'Parks', route: '/park' },
+                { icon: 'restaurant', title: 'Restaurants', route:'/restaurant' },
+                { icon: 'terrain',title: 'Sightseeing', route:'/sightseeing' },
             ]
         }
     }

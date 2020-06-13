@@ -7,7 +7,6 @@ import Restaurant from '../views/Restaurant.vue'
 import Sightseeing from '../views/Sightseeing.vue'
 
 Vue.use(VueRouter)
-
   const routes = [
   {
     path: '/',

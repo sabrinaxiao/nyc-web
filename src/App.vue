@@ -9,11 +9,11 @@
 
 <script>
 
-import Navbar from '@/components/Navbar'
+import Navbar from '@/components/Navbar';
 
 export default {
   name: 'App',
-  components: { Navbar },
+  components: { Navbar},
   data: () => ({
     //
   }),
