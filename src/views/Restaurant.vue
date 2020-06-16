@@ -3,7 +3,7 @@
     <h1 class= "headline">Restaurants</h1>
     <v-container class="my-5">
       <v-list-item href="https://www.yelp.com/biz/prince-street-pizza-new-york-2" class="my-4">
-        <v-img height="400" src="../assets/restaurant-1.jpg" contain class="my-5"></v-img> 
+        <v-img height="400" src="../assets/restaurant-1.jpg" contain class="my-5" ></v-img> 
       </v-list-item>
       <h1 class="text-center headline"> Prince Street Pizza </h1>
       <v-layout col wrap justify-space-around >
