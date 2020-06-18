@@ -1,5 +1,9 @@
 <template>
     <nav>
+        <v-snackbar v-model="snackbar" :timeout="6000" top color = "pink lighten-3">
+            <span>Awesome! You are now on our email list</span>
+            <v-btn flat color="pink lighten-3" @click="snackbar = false"> Close </v-btn>
+        </v-snackbar>
         <v-app-bar flat app>
               <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
             <v-app-bar-title class="text-uppercase">
@@ -28,7 +32,7 @@
 
         <v-navigation-drawer app v-model="drawer" class="pink lighten-3">
             <v-flex class="my-5">
-                <Popup />
+                <Popup @signupSuccess="snackbar = true"/>
             </v-flex>
             <v-list>
                 <v-list-item v-for="item in items" :key=" item.title " router :to="item.route">
@@ -58,7 +62,8 @@ export default {
                 { icon: 'nature_people', title: 'Parks', route: '/park' },
                 { icon: 'restaurant', title: 'Restaurants', route:'/restaurant' },
                 { icon: 'terrain',title: 'Sightseeing', route:'/sightseeing' },
-            ]
+            ],
+            snackbar: false
         }
     }
 }

@@ -15,7 +15,7 @@
                 <h1 class="subtitle-1"> Pay as you wish for New York State residents and New York, New Jersey, and Connecticut students. For visitors: $25 for adults, $17 for seniors, $12 for students, Free for children under 12 and Members and Patrons</h1>
             </v-flex>
             <v-flex xs10 md6>
-                <iframe class="mx-4 my-4" width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=17&center=40.7794%2C-73.9632&key=AIzaSyDH4BbFyezDzLM8Z2jHUMpJmkvhH6t3AXE" allowfullscreen></iframe>
+                <iframe class="mx-4 my-4" width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJb8Jg9pZYwokR-qHGtvSkLzs&key=AIzaSyDH4BbFyezDzLM8Z2jHUMpJmkvhH6t3AXE" allowfullscreen></iframe>
                 <h1 class="subtitle-1 mx-4 font-weight-bold my-2">Transportation: </h1>
                 <h1 class="subtitle-1 mx-4"> <v-icon>directions_bus</v-icon> Bus: BXM2, M1, M103, M2, M3, M4, M86-SBS</h1>
                  <h1 class="subtitle-1 mx-4"> <v-icon>train</v-icon> Train: PATH </h1>
@@ -35,7 +35,7 @@
                 <h1 class="subtitle-1"> $25 for adults, $18 for seniors, $14 for students, and Free for children 16 years olds old and younger and members</h1>
             </v-flex>
             <v-flex xs10 md6>
-                <iframe class="mx-4 my-4" width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=17&center=40.7614%2C-73.9776&key=AIzaSyDH4BbFyezDzLM8Z2jHUMpJmkvhH6t3AXE" allowfullscreen></iframe>
+                <iframe class="mx-4 my-4" width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJKxDbe_lYwokRVf__s8CPn-o&key=AIzaSyDH4BbFyezDzLM8Z2jHUMpJmkvhH6t3AXE" allowfullscreen></iframe>
                 <h1 class="subtitle-1 mx-4 font-weight-bold my-2">Transportation: </h1>
                 <h1 class="subtitle-1 mx-4">  <v-icon>directions_bus</v-icon> Bus: BM1, BXM1, M7, Q32, QM10, QM18, QM5, X28</h1> 
                  <h1 class="subtitle-1 mx-4"> <v-icon>train</v-icon> Train: BABYLON, HUDSON, PATH, PORT JEFFERSON, PORT WASHINGTON </h1>
@@ -55,7 +55,7 @@
                 <h1 class="subtitle-1"> Free for 9/11 Memorial, Tuesday’s from 5-8pm for 9/11 Museum, children under 7 years old, and family members of 9/11 victims and first responders and recovery workers. $24 for adults, $18 for seniors, students, and US veterans, and $15 for children.</h1>
             </v-flex>
             <v-flex xs10 md6>
-                <iframe class="mx-4 my-4" width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=17&center=40.7115%2C-74.0137&key=AIzaSyDH4BbFyezDzLM8Z2jHUMpJmkvhH6t3AXE" allowfullscreen></iframe>
+                <iframe class="mx-4 my-4" width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJRcvoOxpawokR7R4dQMXMMPQ&key=AIzaSyDH4BbFyezDzLM8Z2jHUMpJmkvhH6t3AXE" allowfullscreen></iframe>
                 <h1 class="subtitle-1 mx-4 font-weight-bold my-2">Transportation: </h1>
                 <h1 class="subtitle-1 mx-4">  <v-icon>directions_bus</v-icon> Bus: M5 </h1> 
                  <h1 class="subtitle-1 mx-4"> <v-icon>train</v-icon> Train: PATH </h1>
@@ -75,7 +75,7 @@
                 <h1 class="subtitle-1"> $10 for adults, $5 for children, $5 for seniors, Free for seniors on Wednesdays and museum members </h1>
             </v-flex>
             <v-flex xs10 md6>
-                <iframe class="mx-4 my-4" width="500" height="400"  frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=17&center=40.6904%2C-73.9889&key=AIzaSyDH4BbFyezDzLM8Z2jHUMpJmkvhH6t3AXE" allowfullscreen></iframe>
+                <iframe class="mx-4 my-4" width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJdThqNVVawokRFk58UQOvtuM&key=AIzaSyDH4BbFyezDzLM8Z2jHUMpJmkvhH6t3AXE" allowfullscreen></iframe>
                 <h1 class="subtitle-1 mx-4 font-weight-bold my-2">Transportation: </h1>
                 <h1 class="subtitle-1 mx-4">  <v-icon>directions_bus</v-icon> Bus: B45, B57, B61, B62, B63 </h1> 
                  <h1 class="subtitle-1 mx-4"> <v-icon>train</v-icon> Train: N/A </h1>
@@ -95,7 +95,7 @@
                 <h1 class="subtitle-1"> General price- $23 for adults, $18 for students and seniors, $13 for children</h1>
             </v-flex>
             <v-flex xs10 md6>
-                <iframe class="mx-4 my-4" width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=17&center=40.7813%2C-73.9740&key=AIzaSyDH4BbFyezDzLM8Z2jHUMpJmkvhH6t3AXE" allowfullscreen></iframe>
+                <iframe class="mx-4 my-4" width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJCXoPsPRYwokRsV1MYnKBfaI&key=AIzaSyDH4BbFyezDzLM8Z2jHUMpJmkvhH6t3AXE" allowfullscreen></iframe>
                 <h1 class="subtitle-1 mx-4 font-weight-bold my-2">Transportation: </h1>
                 <h1 class="subtitle-1 mx-4">  <v-icon>directions_bus</v-icon> Bus: M79, M7, M10, M11, M86, M104 </h1> 
                  <h1 class="subtitle-1 mx-4"> <v-icon>train</v-icon> Train: Metro North, LIRR, New Jersey Transit  </h1>

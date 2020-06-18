@@ -13,7 +13,7 @@
           <h1 class="subtitle-1 "> Shakespeare in the Park. Every year, the Delacorte Theater holds free large scale Shakespeare productions in the middle of the park.  </h1>
         </v-flex>
         <v-flex xs10 md6>
-          <iframe class="mx-4 my-4" width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=17&center=40.7678%2C-73.9718&key=AIzaSyDH4BbFyezDzLM8Z2jHUMpJmkvhH6t3AXE" allowfullscreen></iframe>
+          <iframe class="mx-4 my-4" width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ4zGFAZpYwokRGUGph3Mf37k&key=AIzaSyDH4BbFyezDzLM8Z2jHUMpJmkvhH6t3AXE" allowfullscreen></iframe>
           <h1 class="subtitle-1 mx-4 font-weight-bold my-2">Transportation: </h1>
           <h1 class="subtitle-1 mx-4">Since Central Park is so big, there are many forms of transportation. The bus or subway line vary based on which part of the park you want to go to.</h1>
           <h1 class="subtitle-1 mx-4">  <v-icon>directions_bus</v-icon> Bus:  M1, M2, M3, M4, M10, M66, M72, M79, M86, M96, M106 </h1> 
@@ -32,7 +32,7 @@
           <h1 class="subtitle-1 "> Conservatory. Their conservatory grows bonsai and orchids, as well as having three pavilions- desert, tropical, and warm temperate. </h1>
         </v-flex>
         <v-flex xs10 md6>
-          <iframe class="mx-4 my-4" width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=17&center=40.6694%2C-73.9624&key=AIzaSyDH4BbFyezDzLM8Z2jHUMpJmkvhH6t3AXE" allowfullscreen></iframe>
+          <iframe class="mx-4 my-4" width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJwYu_aA5bwokR2lxjW-QvQlc&key=AIzaSyDH4BbFyezDzLM8Z2jHUMpJmkvhH6t3AXE" allowfullscreen></iframe>
           <h1 class="subtitle-1 mx-4 font-weight-bold my-2">Transportation: </h1>
           <h1 class="subtitle-1 mx-4">  <v-icon>directions_bus</v-icon> Bus:  B16, B41, B43, B45, B48, B49, B65, B69 </h1> 
           <h1 class="subtitle-1 mx-4"> <v-icon>train</v-icon> Train: LIRR </h1>
@@ -50,7 +50,7 @@
           <h1 class="subtitle-1 "> Castle Williams, a 200 year old building that was used to be a military fortress and army prison. </h1>
         </v-flex>
         <v-flex xs10 md6>
-          <iframe class="mx-4 my-4" width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=15&center=40.6895%2C-74.0168&key=AIzaSyDH4BbFyezDzLM8Z2jHUMpJmkvhH6t3AXE" allowfullscreen></iframe>
+          <iframe class="mx-4 my-4" width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJT4N92npawokRNfXHEXmRwng&key=AIzaSyDH4BbFyezDzLM8Z2jHUMpJmkvhH6t3AXE" allowfullscreen></iframe>
           <h1 class="subtitle-1 mx-4 font-weight-bold my-2">Transportation: </h1>
           <h1 class="subtitle-1 mx-4">  <v-icon>directions_boat</v-icon> Ferry from Battery Maritime Building </h1> 
           </v-flex>
@@ -66,7 +66,7 @@
             <h1 class="subtitle-1 "> Fireworks. If you visit during July 4th, you will have the best view of the Macy’s 4th of July Fireworks show without having to deal with a big crowd blocking your view.  </h1>
           </v-flex>
           <v-flex xs10 md6>
-            <iframe class="mx-4 my-4" width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=17&center=40.7455%2C-73.9587&key=AIzaSyDH4BbFyezDzLM8Z2jHUMpJmkvhH6t3AXE" allowfullscreen></iframe>
+            <iframe class="mx-4 my-4" width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ7eAADSJawokRObgUbl1g6mk&key=AIzaSyDH4BbFyezDzLM8Z2jHUMpJmkvhH6t3AXE" allowfullscreen></iframe>
             <h1 class="subtitle-1 mx-4 font-weight-bold my-2">Transportation: </h1>
             <h1 class="subtitle-1 mx-4">  <v-icon>directions_bus</v-icon> Bus:  B62, Q103, Q32, Q67 </h1> 
             <h1 class="subtitle-1 mx-4"> <v-icon>train</v-icon> Train: PORT WASHINGTON </h1>

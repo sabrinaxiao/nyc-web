@@ -11,7 +11,7 @@
             <v-card-text>
                 <v-form class="mt-7" ref="form">
                     <v-text-field label="Email" color = "pink lighten-3" v-model="email" outlined prepend-icon="email" :rules="inputRules"></v-text-field>
-                    <v-btn flat color = "green lighten-3" class="mx-0 mt-3" @click="submit">Sign up!</v-btn>
+                    <v-btn flat color = "green lighten-3" class="mx-0 mt-3" @click="submit" :loading="loading">Sign up!</v-btn>
                 </v-form>
             </v-card-text>
         </v-card>
@@ -20,6 +20,7 @@
 </template>
 
 <script>
+import db from '@/fb'
 export default {
     data(){
         return{
@@ -27,13 +28,23 @@ export default {
             inputRules: [
                 v => !!v || 'E-mail is required',
                 v => /.+@.+/.test(v) || 'E-mail must be valid',
-            ]
+            ],
+            loading: false,
+            dialog: false
         }
     },
     methods:{
         submit(){
             if(this.$refs.form.validate()){
-                console.log(this.email)
+                this.loading = true;
+                const signup = {
+                    email: this.email
+                }
+                db.collection('signups').add(signup).then(()=>{
+                    this.loading = false;
+                    this.dialog = false;
+                    this.$emit('signupSuccess')
+                })
             }
         }
     }
