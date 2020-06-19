@@ -10,6 +10,7 @@
             </v-card-title>
             <v-card-text>
                 <v-form class="mt-7" ref="form">
+                    <v-text-field label="Name" color = "pink lighten-3" v-model="name" outlined prepend-icon="create" required :rules="nameRules"></v-text-field>
                     <v-text-field label="Email" color = "pink lighten-3" v-model="email" outlined prepend-icon="email" :rules="inputRules"></v-text-field>
                     <v-btn flat color = "green lighten-3" class="mx-0 mt-3" @click="submit" :loading="loading">Sign up!</v-btn>
                 </v-form>
@@ -29,6 +30,9 @@ export default {
                 v => !!v || 'E-mail is required',
                 v => /.+@.+/.test(v) || 'E-mail must be valid',
             ],
+            nameRules: [
+                v=> !!v || 'Name is required'
+            ],
             loading: false,
             dialog: false
         }
@@ -38,6 +42,7 @@ export default {
             if(this.$refs.form.validate()){
                 this.loading = true;
                 const signup = {
+                    name: this.name,
                     email: this.email
                 }
                 db.collection('signups').add(signup).then(()=>{
